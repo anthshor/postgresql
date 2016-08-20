@@ -34,7 +34,7 @@ vncviewer
 open a terminal window
 pgadmin3
 ```
-click "add a connection to server" (plug) and fill in form - see pic (mydb, 127.0.0.1, mydb, postgres, oracle, click OK) 
+- click "add a connection to server" (plug) and fill in form - see pic (mydb, 127.0.0.1, mydb, postgres, oracle, click OK) 
 ```
 sudo vi /etc/postgresql/9.1/main/pg_hba.conf
 ```
@@ -48,6 +48,7 @@ sudo /etc/init.d/postgresql reload
 
 ###Reference:
 https://help.ubuntu.com/community/PostgreSQL
+
 https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-14-04
 
 
