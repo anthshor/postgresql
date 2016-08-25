@@ -1,6 +1,35 @@
 
 ##A process for installing postgresql
-I've used vagrant to spin up a virtual machine using their Ubuntu base box and added the manual steps to install postgresql and the GUI admin tool
+I've used vagrant to spin up a virtual machine using their Ubuntu base box provision script to install postgresql and the GUI admin tool
+
+
+###Scripted steps
+On Host :
+
+To provision
+
+```
+vagrant up
+vagrant ssh
+```
+
+###To run pgadmin3:
+On Guest :
+```
+vncserver
+password x 2
+n
+```
+
+On Host :
+```
+vncviewer
+open a terminal window
+pgadmin3
+```
+
+-- end --
+
 
 ###Manual Steps
 On Host :
